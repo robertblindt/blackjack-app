@@ -10,9 +10,9 @@ There are some extra features in some of the classes that are not in use that ma
 
 Once I felt comfortable working with some game parameters, I chose to take a shot at working out how `tkinter` worked.  I stripped my game back to the most basic form and in the the process accidentally removed some of the automatic fail safes and checks.  I used the grid methods to lay out my app, and set up a pair of `.wait_variable` expressions and replaced the input expression with a `.get()` method to pull from a `StringVar` to handle hitting and standing instead of the normal python `input()`.  For some reason it can act a little laggy or miss input from ime to time though.  I had a hard time getting this app up and running, and I do not think this is the optimal way to handle the betting, but it works.
 **Tkinter app on launch:**
-![tkinter_launch](tkinter_app_launch.PNG "Launch Page")
+![tkinter_launch](screenshots/tkinter_app_launch.PNG "Launch Page")
 **Tkinter app at end of game:**
-![tkinter_launch](tkinter_app_endofgame.PNG "Launch Page")
+![tkinter_launch](screenshots/tkinter_app_endofgame.PNG "Launch Page")
 
 ## Installing, Running, and How to use:
 You should be able to just clone this repository and run this as long as you are using Python 3.8 or newer.  I started developing my functions in Jupyter notebook using Python 3.8 and eventually moved over to VSCode where I was using 3.9.
